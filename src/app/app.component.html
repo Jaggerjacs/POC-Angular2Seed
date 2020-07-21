@@ -1,0 +1,16 @@
+<h2>
+  Angular 2 Seed
+</h2>
+
+<h3> ButtonComponent
+</h3>
+<wc-button></wc-button>
+
+<h3>TableComponent</h3>
+<wc-table #table  
+  [myRows]="rows"
+  [myCustomPlaceholder]="'Placeholder22'"
+  my-custom-placeholder="Placeholder"
+  my-button-label="Click me!" 
+  (changeIt)="goChange($event)">
+</wc-table>
